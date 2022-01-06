@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  .hero-section {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 35px;
+  }
+  .half-area {
+    width: 40%;
+    padding: 0 3%;
+    margin: 0 5%;
+  }
+  .half-area h1 {
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: black;
+    padding-left: 15px;
+    position: relative;
+    line-height: 1.2;
+  }
+  .half-area h1::before {
+    content: "";
+    position: absolute;
+    background: #ff5959;
+    height: 125px;
+    width: 5px;
+    border-radius: 5px;
+    top: 8px;
+    left: 0;
+  }
+  .half-area img {
+    width: 100%;
+  }
+  .text-highlight {
+    color: #ffad5a;
+  }
+  .stay-focused-text {
+    padding: 25px 0;
+    color: #333;
+    font-size: 18px;
+  }
+  .link-button {
+    background: #ff5959;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    display:inline-block;
+  }
+  .second-section h1 {
+    font-size: 48px;
+    color: #13103a;
+    text-align: center;
+  }
+  .box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .box {
+    width: 25%;
+    margin: 30px 15px;
+    padding: 15px 30px;
+    border-radius: 25px;
+  }
+  .box img {
+    width: 150px;
+  }
+  .box:nth-child(1) {
+    background: rgba(79, 157, 166, 0.1);
+  }
+  .box:nth-child(2) {
+    background: rgba(255, 89, 89, 0.1);
+  }
+  .box:nth-child(3) {
+    background: #fff4d6;
+  }
+  .box p {
+    padding: 10px 0 50px;
+  }
+  .third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+    margin: 60px 0;
+  }
+  .img-container {
+    padding-right: 60px;
+    position: relative;
+  }
+  .section-img {
+    width: 400px;
+  }
+  .text-container {
+    width: 50%;
+  }
+  .text-container h1 {
+    font-size: 36px;
+    color: #333;
+    margin: 20px 0;
+  }
+  .text-container p {
+    padding: 10px 10px 25px;
+  }
+  
+  .bg-round {
+    position: absolute;
+    width: 230px;
+    left: -100px;
+    top: 75px;
+    z-index: -1;
+  }
+  .bg-round-2 {
+    position: absolute;
+    width: 230px;
+    right: -15px;
+    bottom: -72px;
+    z-index: -1;
+  }
+    .footer {
+        left: 5%;
+      bottom: 5;
+      width: 100%;
+      margin-top: 20%;
+      padding: 5%;
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-style: oblique ;
+    }
+    .text-footer{
+        color: red;
+       
+    }
